@@ -1,6 +1,7 @@
 📘 AI Language Translator – CodeAlpha Internship
 
 This project is an AI-based Language Translator built using Python, Django, JavaScript, and LibreTranslate API.
+
 It was developed as part of the CodeAlpha Artificial Intelligence Internship.
 
 The translator allows users to input any text and instantly convert it into another language with a clean and modern UI.
@@ -8,43 +9,75 @@ The translator allows users to input any text and instantly convert it into anot
 🌟 Features
 
 ✔ Translate text between multiple languages
+
 ✔ Clean, simple user interface
+
 ✔ Uses LibreTranslate API for accurate translations
+
 ✔ Responsive and fast
+
 ✔ Easy to extend with more languages
+
 ✔ Fully functional Django web app
 
 📂 Project Structure
+
 AI Language Translator/
+
 │
+
 ├── AI/                            
+
 │   ├── Templates/
+
 │   │   └── index.html      # Translator UI
+
 │   ├── views.py            # Translation logic (API call)
+
 │   ├── urls.py             # App routing
+
 │   └── apps.py             
+
 │
+
 ├── Intelligence/                  
+
 │   ├── settings.py
+
 │   ├── urls.py              # Main project routes
+
 │   └── wsgi.py
+
 │
+
 ├── static/
+
 │   ├── css/
+
 │   │   └── index.css       # UI styling
+
 │   └── js/
+
 │       └── translate.js    # Fetch API for translation
+
 │
+
 ├── manage.py
+
 ├── requirements.txt
+
 └── README.md
 
 ⚙️ Installation & Setup
+
 ✔ 1. Clone the repository
+
 git clone https://github.com/Antro845/CodeAlpha_TRANSLATOR.git
+
 cd CodeAlpha_TRANSLATOR
 
 ✔ 2. Create a virtual environment
+
 python -m venv venv
 
 ✔ 3. Activate venv
@@ -54,9 +87,11 @@ Windows:
 venv\Scripts\activate
 
 ✔ 4. Install project dependencies
+
 pip install -r requirements.txt
 
 ✔ 5. Run Django development server
+
 python manage.py runserver
 
 
@@ -91,6 +126,7 @@ Your translator will be available at:
 📝 API Used
 
 🔗 LibreTranslate API
+
 A free and open-source translation engine used to handle language conversion.
 
 📦 Requirements
@@ -101,6 +137,7 @@ The required packages are listed in:
 
 
 Install all packages with:
+
 pip install -r requirements.txt
 
 🏅 About CodeAlpha Internship
@@ -124,6 +161,7 @@ It demonstrates practical skills in:
 📬 Contact
 
 Developer: M. ANTRO PRATHIK SAM 
+
 GitHub: https://github.com/Antro845
 
 ⭐ If you found this project useful, please star the repository!
