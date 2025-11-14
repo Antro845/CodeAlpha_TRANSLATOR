@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translator</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Language Translation Tool</h1>
+
+    <textarea id="inputText" placeholder="Enter text..."></textarea>
+
+    <div class="row">
+        <label>From</label>
+        <select id="sourceLang">
+            <option value="en">English</expert>
+        </select>
+
+        <label>To</label>
+        <select id="targetLang">
+            <option value="hi">Hindi</option>
+            <option value="en">English</expert>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+            <option value="zh">Chinese</option>
+        </select>
+    </div>
+
+    <div class="buttons">
+        <button id="translateBtn">Translate</button>
+        <button id="clearBtn">Clear</button>
+        <button id="copyBtn">Copy</button>
+        <button id="speakBtn">Speak</button>
+
+        <label>Theme</label>
+        <select id="themeSwitcher">
+            <option value="light">☀ Light</option>
+            <option value="dark">🌙 Dark</option>
+            <option value="blue">🔵 Blue</option>
+        </select>
+    </div>
+
+    <h3>Translated Text</h3>
+    <textarea id="outputText" readonly></textarea>
+
+    <p id="status"></p>
+
+</div>
+
+<script src="{% static 'js/translate.js' %}"></script>
+</body>
+</html>
